@@ -1,0 +1,42 @@
+/* Add CSS for the scoreboard */
+#scoreboard {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+#scoreboard div {
+    margin-bottom: 10px;
+}
+
+/* Add CSS for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222;
+    position: relative; /* Add this line */
+}
+
+/* Add CSS for the canvas */
+canvas {
+    border: 2px solid #fff;
+}
+
+/* Add CSS for the difficulty select */
+.difficulty-select {
+    margin-bottom: 20px;
+}
+
+.difficulty-select label {
+    font-weight: bold;
+}
+
+.difficulty-select select {
+    padding: 5px;
+    font-size: 16px;
+}
